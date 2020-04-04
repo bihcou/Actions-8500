@@ -22,7 +22,7 @@ on:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/bihcou/lede
   REPO_BRANCH: master
   CONFIG_FILE: 8500lean.config
   DIY_SH: diy.sh
