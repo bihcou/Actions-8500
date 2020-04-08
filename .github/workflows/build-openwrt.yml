@@ -106,7 +106,7 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_firmware
+        name: OpenWrt_firmware8500lean
         path: ${{ env.FIRMWARE }}
 
     - name: Upload firmware to cowtransfer
